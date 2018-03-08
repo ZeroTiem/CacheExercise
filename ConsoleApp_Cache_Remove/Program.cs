@@ -33,6 +33,7 @@ namespace ConsoleApp_Cache_Remove
                 i++;
             }
             Console.WriteLine("\n" + "End");
+
         }
         static void CacheItemRemoved(CacheEntryRemovedArguments arguments)
         {
